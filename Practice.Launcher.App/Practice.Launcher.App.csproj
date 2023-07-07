@@ -11,8 +11,4 @@
       <ProjectReference Include="..\Practice.Domain\Practice.Domain.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-        <ProjectReference Include="..\Lab1\Lab1.csproj" />
-    </ItemGroup>
-
 </Project>
