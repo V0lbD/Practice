@@ -143,10 +143,8 @@ public static class EnumerableExtensions
         }
         
         ThrowIfNotDistinct(collection, comparer);
-        
-        var resultList = new List<T>(collection);
-        
-        return resultList.GenerationPermutationWithoutElementRepetition();
+
+        return collection.GenerationPermutationWithoutElementRepetition();
     }
 
     public static IEnumerable<IEnumerable<T>> GenerationPermutationWithoutElementRepetition<T>(
